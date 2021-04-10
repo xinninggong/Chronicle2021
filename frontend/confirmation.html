@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> 
 	<head> 
-			<title> Confirm Booking </title> 
+			<title> Booking Details </title> 
 			<link href = "styles.css" rel = "stylesheet"> 
 			<script src = "script.js"> </script>
 	</head> 
@@ -15,24 +15,28 @@
 				<li onclick="visitLogin();"id = "link">Logout</li>
 			</ul>
 		</header>
+		
 
 		<div class = "background-wrap">
 			<img class = "background-img" src = "images/background.jpeg" alt = "background image">
 		<div class = "content"> 
-			
-		<button onclick = "visitSeat();"> < Seat</button>
+		
 		
 		<section class = "confirmation"> 
-			<h2> Confirm Reservation </h2>
+			<div class = "overlay">
+			<h2> Booking Confirmation </h2>
 			<p> Seat: 10 
-			<p> Date: 12/04/2021
 			<p> Time: 9:00am 
+			<p> Date: 12/04/2021
 			<p> Location: Level 0, Kate Edgar Info Comm 315, City Campus 
+			<br>
+			<br>
+			<button onclick = "visitBookingDetails();" id = "confirm"> Confirm</button> 
+			<button id = "cancel" onclick = "visitDateTime()"> Cancel Booking</button> 
 		</section> 
 		
 	</div>
 </div>
-		
 		<footer> 
 		&copy; Mingle with Mango 2021 
 		</footer>

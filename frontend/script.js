@@ -25,6 +25,11 @@ function visitProfile() {
 function visitConfirmation() { 
 	window.location.replace("confirmation.html")
 }
+
+function visitBookingDetails() { 
+	window.location.replace("booking_details.html")
+}
+
 	
 function visitSeat() { 
 	window.location.replace("seat.html")

@@ -47,17 +47,35 @@ header li {
 	margin-top: 200px;
 }
 
-.login, .location, .datetime, .seat, .confirmation {
+.login, .location, .datetime, .seat {
 	margin-top: 100px;
+}
+
+.confirmation {
+	margin-top: 50px;
 }
 
 .seat table {
 	margin: auto;
 }
 
+.overlay {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 60%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 20px;
+}
+
 .seat td{
 	font-size: 28px;
 	padding: 10px;
+	font-family: Helvetica;
+}
+
+.confirmation p{
+	font-size: 20px;
+	padding: 5px;
 	font-family: Helvetica;
 }
 
@@ -101,9 +119,13 @@ ul.seat {
 	font-size: 18px;
 }
 
-.login_button, .datetime button, .location button {
+.login_button, .datetime button, .location button, .confirmation button {
 	background-color: rgb(40, 180, 99); 
 	color: white;
+}
+
+#cancel {
+	background-color: red;
 }
 
 .login button, .datetime button, .location button {
@@ -121,11 +143,15 @@ ul.seat {
 	background-color: rgba(241, 245, 255, 0.9);
 }
 
-.location button {
+.location button, .confirmation button {
 	width: 32%;
 	padding: 1%;
 	border-radius: 15px;
 	font-size: 18px;
+}
+
+.confirmation button {
+	margin: 5px 20px;
 }
 
 
