@@ -30,11 +30,20 @@ h1 {
 	overflow:hidden;
 }
 
-.homepage {
+.homepage, .login {
 	margin: auto; 
 	text-align: center;
+}
+
+.homepage {
 	margin-top: 200px;
 }
+
+.login {
+	margin-top: 100px;
+}
+
+
 
 .homepage input{
 	width: 38%;
@@ -59,7 +68,7 @@ h1 {
 	width: 30%;
 	padding: 1%;
 	border: 2px solid rbg(46, 64, 83);
-	background-color: rgba(241, 245, 255, 0.8);
+	background-color: rgba(241, 245, 255, 0.9);
 	border-radius: 15px;
 	font-size: 18px;
 }
@@ -75,6 +84,7 @@ h1 {
 	border-radius: 15px;
 	font-size: 18px;
 }
+
 
 h2 {
 	color: rbg(46, 64, 83);
