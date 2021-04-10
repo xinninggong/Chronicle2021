@@ -5,7 +5,6 @@
 			<link href = "styles.css" rel = "stylesheet"> 
 			<script src = "script.js"> </script>
 	</head> 
-	<body style="text-align:center"> 
 		<header> 
 			<h1> Book A Seat </h1>
 		</header> 
@@ -13,18 +12,22 @@
 		<div class = "background-wrap">
 			<img class = "background-img" src = "images/background.jpeg" alt = "background image">
 		<div class = "content">				
-			<section> 
-			<h3>Select date and time:</h3>
+			<section class = "datetime"> 
+			<h2>Select date and time:</h3>
 			<input type = "datetime-local"
-			min = "2020-04-11" max = "2020-04-18">
-			<h3>Duration</h3>
-			<input list="durations">
+			min = "2020-04-11T08:30" max = "2020-04-18T08:30">
+			<br>
+			<br>
+			<input list="durations" placeholder = "Duration">
 			    <datalist id="durations">
 			      <option value="30 minutes">
 			      <option value="60 minutes">
 			      <option value="120 minutes">
 			    </datalist>		
-			<button onclick = "visitLocation();"> Go </button><br>
+				
+			<br>
+			<br>
+			<button onclick = "visitLocation();"> Go </button>
 		</section> 
 
 		</div>
