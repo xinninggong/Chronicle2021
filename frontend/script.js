@@ -21,6 +21,10 @@ function visitLocation() {
 function visitProfile() { 
 	window.location.replace("profile.html")
 }
+
+function visitConfirmation() { 
+	window.location.replace("confirmation.html")
+}
 	
 function showSeat() {
 	let seatSelected = $("#selection"); 
