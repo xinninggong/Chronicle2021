@@ -6,13 +6,32 @@
 			<script src = "script.js"> </script>
 	</head> 
 	<body> 
-		<header> 
+		<header style> 
 			<h1> Book A Seat </h1> 
-		</header> 
+			<ul id = "header">
+				<li onclick="visitDateTime();" id = "link">Make booking</li>
+				<li onclick="visitBookingDetails();"id = "link">View Booking</li>
+				<li onclick="VisitProfilePage();"id = "link">Profile</li>
+				<li onclick="visitLogin();"id = "link">Logout</li>
+			</ul>
+		</header>
+
+		<div class = "background-wrap">
+			<img class = "background-img" src = "images/background.jpeg" alt = "background image">
+		<div class = "content"> 
+			
+		<button onclick = "visitSeat();"> < Seat</button>
 		
-		<section> 
-			<p style = "text-align: center;">Confirm reservation of seat __ at __ on __ ?</p>
+		<section class = "confirmation"> 
+			<h2> Confirm Reservation </h2>
+			<p> Seat: 10 
+			<p> Date: 12/04/2021
+			<p> Time: 9:00am 
+			<p> Location: Level 0, Kate Edgar Info Comm 315, City Campus 
 		</section> 
+		
+	</div>
+</div>
 		
 		<footer> 
 		&copy; Mingle with Mango 2021 

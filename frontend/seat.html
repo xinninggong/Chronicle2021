@@ -8,12 +8,21 @@
 	</head> 
 	
 	<body> 
-		<header> 
+		<header style> 
 			<h1> Book A Seat </h1> 
-		</header> 
-		
+			<ul id = "header">
+				<li onclick="visitDateTime();" id = "link">Make booking</li>
+				<li onclick="visitBookingDetails();"id = "link">View Booking</li>
+				<li onclick="VisitProfilePage();"id = "link">Profile</li>
+				<li onclick="visitLogin();"id = "link">Logout</li>
+			</ul>
+		</header>
+
+		<div class = "background-wrap">
+			<img class = "background-img" src = "images/background.jpeg" alt = "background image">
+		<div class = "content">
+		<button onclick="visitLocation()"> < Location</button>
 		<section class = "seat"> 
-			<button onclick="visitLocation()"> < Location</button>
 			<br>
 			<br>
 			
@@ -81,13 +90,19 @@
 						
 			</table>
 			
+			<br>
+			
 			<div id="selection"> 
 				Seat number: 10
-				<button onclick = "visitConfirmation()"> Confirm </button>
+				
+				<br>
+				<button onclick = "visitConfirmation()" class = "confirm"> Confirm </button>
 			</div>
 	
 			
 		</section> 
+	</div>
+</div>
 		
 		<footer> 
 		&copy; Mingle with Mango 2021 

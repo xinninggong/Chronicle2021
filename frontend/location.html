@@ -6,16 +6,23 @@
 			<script src = "script.js"> </script>
 	</head> 
 	<body> 
-		<header> 
+		<header style> 
 			<h1> Book A Seat </h1> 
-			<button onclick = "visitDateTime();"> < Date </button>
-
-		</header> 
+			<ul id = "header">
+				<li onclick="visitDateTime();" id = "link">Make booking</li>
+				<li onclick="visitBookingDetails();"id = "link">View Booking</li>
+				<li onclick="VisitProfilePage();"id = "link">Profile</li>
+				<li onclick="visitLogin();"id = "link">Logout</li>
+			</ul>
+		</header>
+	
 		<div class = "background-wrap"> 
 			<img class = "background-img" src = "images/background.jpeg" alt = "background image">
 		<div class = "content">
+			<button onclick = "visitDateTime();"> < Date and Time</button>
 		
 		<section class = "location"> 
+			
 			
 			<h2> Select Room </h2> 
 			

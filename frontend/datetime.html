@@ -5,9 +5,15 @@
 			<link href = "styles.css" rel = "stylesheet"> 
 			<script src = "script.js"> </script>
 	</head> 
-		<header> 
-			<h1> Book A Seat </h1>
-		</header> 
+		<header style> 
+			<h1> Book A Seat </h1> 
+			<ul id = "header">
+				<li onclick="visitDateTime();" id = "link">Make booking</li>
+				<li onclick="visitBookingDetails();"id = "link">View Booking</li>
+				<li onclick="VisitProfilePage();"id = "link">Profile</li>
+				<li onclick="visitLogin();"id = "link">Logout</li>
+			</ul>
+		</header>
 
 		<div class = "background-wrap">
 			<img class = "background-img" src = "images/background.jpeg" alt = "background image">
