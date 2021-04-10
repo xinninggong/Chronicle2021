@@ -1,16 +1,52 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html> 
 	<head> 
 			<title> Seat </title> 
 			<link href = "styles.css" rel = "stylesheet"> 
-			<script src = "script.js"> </script>
+		<!--<script src = "script.js"> </script> --> 
 	</head> 
+	
 	<body> 
 		<header> 
 			<h1> Book A Seat </h1> 
 		</header> 
 		
 		<section> 
+			<button onclick="visitLocation()"> Location</button>
+			<br>
+			<br>
+			
+			<div class="js-table"></div>
+		
+			<script>
+			const numbers = []
+			const rows = 10;
+			const cols = 10;
+			let table = "";
+			let numberIndex = 0;
+			let colors = ['red', 'green'];
+
+			for (let i = 1; i < 101; i++) {
+				numbers.push(i)
+			}
+
+
+			for (let r = 0; r < rows; r++) {
+			  table += "<tr>";
+
+			  for(let c = 0; c < cols; c++) {
+			    table += `<td bgcolor=${colors[Math.floor(Math.random() *colors.length)]}>${ numbers[numberIndex] }</td>`;
+			    numberIndex++;
+			  }
+
+			  table += "</tr>";
+			}
+
+			document.querySelector('.js-table').innerHTML = `<table border=1>${ table }</table>`;
+
+			</script>
+			
+			
 		</section> 
 		
 		<footer> 

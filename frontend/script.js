@@ -13,3 +13,8 @@ function visitLocation() {
 function visitSignUp() { 
 	window.location.replace("signup.html")
 }
+
+function visitLocation() { 
+	window.location.replace("location.html")
+}
+
