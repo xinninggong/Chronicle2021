@@ -15,13 +15,14 @@
 		<div class = "content">				
 			<section> 
 			<h3>Select date and time:</h3>
-			<textarea></textarea>
+			<input type = "datetime-local"
+			min = "2020-04-11" max = "2020-04-18">
 			<h3>Duration</h3>
 			<input list="durations">
 			    <datalist id="durations">
-			      <option value="30 mins">
-			      <option value="1hr">
-			      <option value="2hrs">
+			      <option value="30 minutes">
+			      <option value="60 minutes">
+			      <option value="120 minutes">
 			    </datalist>		
 			<button onclick = "visitLocation();"> Go </button><br>
 		</section> 
