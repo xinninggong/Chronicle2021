@@ -9,3 +9,7 @@ function visitDateTime() {
 function visitLocation() { 
 	window.location.replace("location.html")
 }
+
+function visitSignUp() { 
+	window.location.replace("signup.html")
+}
