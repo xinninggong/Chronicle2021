@@ -60,17 +60,20 @@ h1 {
 	padding: 1%;
 	border: 2px solid rbg(46, 64, 83);
 	background-color: rgba(241, 245, 255, 0.8);
-	border-radius: 20px;
+	border-radius: 15px;
 	font-size: 18px;
+}
+
+.login_button {
+	background-color: rgb(40, 180, 99); 
+	color: white;
 }
 
 .login button {
 	width: 32%;
 	padding: 1%;
-	background-color: rgba(241, 245, 255, 0.8);
-	border-radius: 20px;
+	border-radius: 15px;
 	font-size: 18px;
-	
 }
 
 h2 {
