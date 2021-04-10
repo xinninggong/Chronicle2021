@@ -20,4 +20,8 @@ function visitLocation() {
 
 function visitProfile() { 
 	window.location.replace("profile.html")
+	
+function showSeat() {
+	let seatSelected = $("#selection"); 
+	seatSelected.show();
 }

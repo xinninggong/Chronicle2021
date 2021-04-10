@@ -3,7 +3,8 @@
 	<head> 
 			<title> Seat </title> 
 			<link href = "styles.css" rel = "stylesheet"> 
-		<!--<script src = "script.js"> </script> --> 
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src = "script.js"> </script>
 	</head> 
 	
 	<body> 
@@ -16,36 +17,49 @@
 			<br>
 			<br>
 			
-			<div class="js-table"></div>
-		
-			<script>
-			const numbers = []
-			const rows = 10;
-			const cols = 10;
-			let table = "";
-			let numberIndex = 0;
-			let colors = ['red', 'green'];
-
-			for (let i = 1; i < 101; i++) {
-				numbers.push(i)
-			}
-
-
-			for (let r = 0; r < rows; r++) {
-			  table += "<tr>";
-
-			  for(let c = 0; c < cols; c++) {
-			    table += `<td bgcolor=${colors[Math.floor(Math.random() *colors.length)]}>${ numbers[numberIndex] }</td>`;
-			    numberIndex++;
-			  }
-
-			  table += "</tr>";
-			}
-
-			document.querySelector('.js-table').innerHTML = `<table border=1>${ table }</table>`;
-
-			</script>
+			<table>
+				<tr>
+					<td bgcolor = "green"> 1 
+					<td bgcolor = "red"> 2
+					<td bgcolor = "green"> 3
+					<td bgcolor = "green"> 4
+					<td bgcolor = "red"> 5
+					<td bgcolor = "red"> 6
+					<td bgcolor = "green"> 7
+					<td bgcolor = "red"> 8
+					<td bgcolor = "green"> 9
+					<td bgcolor = "green" > <button onclick = "showSeat()"> 10 </button>
+						
+				<tr>
+					<td bgcolor = "red"> 11 
+					<td bgcolor = "red"> 12
+					<td bgcolor = "green"> 13
+					<td bgcolor = "green"> 14
+					<td bgcolor = "red"> 15
+					<td bgcolor = "green"> 16
+					<td bgcolor = "red"> 17
+					<td bgcolor = "red"> 18
+					<td bgcolor = "green"> 19
+					<td bgcolor = "red"> 20
+						
+				<tr>
+					<td bgcolor = "red"> 21 
+					<td bgcolor = "green"> 22
+					<td bgcolor = "green"> 23
+					<td bgcolor = "red"> 24
+					<td bgcolor = "red"> 25
+					<td bgcolor = "green"> 26
+					<td bgcolor = "green"> 27
+					<td bgcolor = "red"> 28
+					<td bgcolor = "green"> 29
+					<td bgcolor = "red"> 30
+						
+			</table>
 			
+			<div id="selection"> 
+				Seat number: 10
+			</div>
+	
 			
 		</section> 
 		
