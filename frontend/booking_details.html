@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html> 
 	<head> 
 			<title> Booking Details </title> 
@@ -6,12 +6,21 @@
 			<script src = "script.js"> </script>
 	</head> 
 	<body> 
-		<header> 
-			<h1> Book A Seat </h1> 
+		<header style = "text-align: center;"> 
+			<h1>Book A Seat</h1> 
+			<ul id = "header">
+				<li onclick="visitDateTime();" id = "link">Make booking</li>
+				<li>|</li>
+				<li onclick="visitBookingDetails();"id = "link">View Booking</li>
+				<li>|</li>
+				<li onclick="visitProfile();"id = "link">Profile</li>
+				<li>|</li>
+				<li onclick="visitLogin();"id = "link">Logout</li>
+			</ul>
+
 		</header> 
 		
 		<section> 
-			
 		</section> 
 		
 		<footer> 

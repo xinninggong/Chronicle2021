@@ -18,3 +18,6 @@ function visitLocation() {
 	window.location.replace("location.html")
 }
 
+function visitProfile() { 
+	window.location.replace("profile.html")
+}
