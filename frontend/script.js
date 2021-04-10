@@ -18,3 +18,7 @@ function visitLocation() {
 	window.location.replace("location.html")
 }
 
+function showSeat() {
+	let seatSelected = $("#selection"); 
+	seatSelected.show();
+}

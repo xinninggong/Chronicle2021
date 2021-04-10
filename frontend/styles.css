@@ -86,6 +86,9 @@ h1 {
 	font-size: 18px;
 }
 
+#selection {
+	display:none;
+}
 
 h2 {
 	color: rbg(46, 64, 83);
