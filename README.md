@@ -1,4 +1,4 @@
-# Chronicle2021 Instructions
+# Chronicle 2021 Instructions
 
 Hi Welcome to Book a Seat! 
 Students can access this website to reserve a study seat at their universities. 
