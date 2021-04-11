@@ -184,6 +184,10 @@ ul li#link:hover {
   background-color: rgba(171, 178, 185, 0.4);
 }	
 
+.seat td {
+	color: rgb(245, 245, 245);
+}
+
 .seat table tr td:hover {
 	background-color: rgba(86, 101, 115, 0.8);
 }
